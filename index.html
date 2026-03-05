@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fitness Club</title>
+    <meta name="description"
+        content="Desafía los límites en The Fitness Club. Entrenamiento de alto rendimiento en un ambiente industrial premium.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;700;900&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="Logo Icon" class="logo-icon">
+                <div class="logo-text">
+                    <span class="small-text">The</span>FITNESS<span class="accent-color"> CLUB</span>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Inicio</a></li>
+                <li><a href="#about">Inscribite</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="#contact" class="btn btn-outline">Empezá hoy</a>
+            </div>
+            <div class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-bg">
+            <div class="overlay"></div>
+            <img src="hero.png" alt="THE FITNESS CLUB Hero" class="hero-img-bg">
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h2 class="sub-reveal">ENTRENA SIN LÍMITES</h2>
+                <h1 class="title-reveal">THE FITNESS<br><span style="color: var(--primary);">CLUB</span></h1>
+                <p class="p-reveal">Mantenete motivado y energizado <br> ¡Inscribite hoy mismo!</p>
+                <div class="hero-btns reveal">
+                    <a href="#about" class="btn btn-primary">Conocer más</a>
+                    <a href="#contact" class="btn btn-secondary">Reservar Clase</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>SCROLL</span>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-grid">
+            <div class="about-img a-reveal">
+                <div class="img-container">
+                    <img src="tfc.webp" alt="The Fitness Club Interior" class="gym-interior-img">
+                    <div class="img-accent"></div>
+                </div>
+            </div>
+            <div class="about-text a-reveal">
+                <div class="special-text-block">
+                    <h2 class="text-white-bold tilt-up">¿Y SI</h2>
+                    <img src="unnamed.jpg" alt="ENTRENAS" class="text-img-brush">
+                    <h2 class="text-white-bold tilt-up-delayed">HOY?</h2>
+                </div>
+                <ul class="check-list">
+                    <li><i class="fa-solid fa-check"></i> Equipamiento de grado competitivo</li>
+                    <li><i class="fa-solid fa-check"></i> Comunidad de alto nivel</li>
+                    <li><i class="fa-solid fa-check"></i> Ambiente enfocado y sin distracciones</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary">Conocer más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta">
+        <div class="container">
+            <div class="cta-box c-reveal">
+                <h2>¿ESTÁS LISTO PARA<br>MEJORAR TU FÍSICO?</h2>
+                <p style="font-size: 1.5rem;"><span style="font-weight: 800;">Te esperamos en Alberdi 3227</span><br>De
+                    Lunes a Viernes desde las 7hs hasta las 23hs.<br>Sábados desde las 10hs hasta las 16hs</p>
+                <form class="cta-form">
+                    <div style="display: flex; justify-content: center; width: 100%; margin-top: 2rem;">
+                        <button type="submit" class="btn btn-primary">Ver en Google Maps</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-info">
+                <a href="#" class="logo">
+                    <img src="logo.png" alt="Logo Icon" class="logo-icon" style="width: 40px; vertical-align: middle;">
+                    <span style="font-weight: 900; color: var(--text);">THE FITNESS<span> CLUB</span></span>
+                </a>
+                <p>Mantenete motivado y energizado.</p>
+                <div class="socials">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Inscribite</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Ubicación</h4>
+                <p>Alberdi 3227</p>
+                <p>@thefitnessclub.varela</p>
+                <p>+123 456 789</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 THE FITNESS CLUB. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- GSAP & Lenis -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
