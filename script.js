@@ -158,5 +158,14 @@ const navMenu = document.querySelector('.nav-links');
 if (menuBtn) {
     menuBtn.addEventListener('click', () => {
         navMenu.classList.toggle('active');
+        menuBtn.classList.toggle('active');
     });
 }
+
+// Close menu when clicking a link
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        menuBtn.classList.remove('active');
+    });
+});
