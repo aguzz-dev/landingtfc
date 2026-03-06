@@ -546,7 +546,7 @@ h3,
 
 .cta-box {
     background-color: var(--primary);
-    padding: 6rem;
+    padding: 4.5rem;
     border-radius: 4px;
     text-align: center;
     color: #000;
@@ -555,15 +555,15 @@ h3,
 }
 
 .cta-box h2 {
-    font-size: 5rem;
+    font-size: 3.75rem;
     line-height: 1.1;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .cta-box p {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     font-weight: 500;
-    margin-bottom: 3.5rem;
+    margin-bottom: 2.6rem;
 }
 
 .cta-form {
@@ -687,6 +687,66 @@ h3,
 }
 
 /* Responsividad */
+@media (max-width: 1400px) {
+    html {
+        font-size: 85%;
+    }
+}
+
+@media (max-width: 1366px) {
+    html {
+        font-size: 76%;
+    }
+
+    .about {
+        padding: 4rem 0;
+    }
+
+    .special-text-block {
+        transform: scale(0.8);
+        transform-origin: left center;
+        margin-bottom: 1rem;
+    }
+
+    .text-white-bold {
+        font-size: 4.5rem;
+        position: relative;
+        right: 120px;
+    }
+
+    .text-img-brush {
+        max-width: 320px;
+        margin: -3rem 0 -3rem -1rem;
+    }
+
+    .tilt-up {
+        top: 40px;
+    }
+
+    #y-si {
+        left: 0;
+        bottom: 40px;
+    }
+
+    .gym-interior-img {
+        margin-left: 60%;
+        width: 38%;
+    }
+
+    .img-container {
+        padding: 1rem;
+    }
+
+    .img-accent {
+        width: 30%;
+    }
+
+    .img-container img {
+        margin-left: 60%;
+        width: 36%;
+    }
+}
+
 @media (max-width: 1024px) {
     .services-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -718,11 +778,11 @@ h3,
     }
 
     .cta-box {
-        padding: 3rem 1.5rem;
+        padding: 2.25rem 1.1rem;
     }
 
     .cta-box h2 {
-        font-size: 3rem;
+        font-size: 2.25rem;
     }
 
     .cta-form {
