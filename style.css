@@ -714,6 +714,48 @@ h3,
     transition: transform 0.1s ease-out;
 }
 
+@media (max-width: 1366px) {
+    html {
+        font-size: 85%;
+    }
+
+    .nav-links {
+        gap: 1.5rem;
+    }
+
+    .hero h1 {
+        font-size: clamp(3rem, 10vw, 5.5rem);
+    }
+
+    .hero p {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .about {
+        padding: 5rem 0;
+    }
+
+    .special-text-block {
+        transform: scale(0.7);
+        transform-origin: left center;
+        margin-bottom: 0;
+    }
+
+    .text-white-bold {
+        font-size: 4.5rem;
+    }
+
+    .text-img-brush {
+        max-width: 300px;
+        margin: 1.6rem 0 -2rem 0;
+    }
+
+    .gym-interior-img {
+        max-width: 80%;
+    }
+}
+
 /* Responsividad */
 @media (max-width: 1200px) {
     .container {
@@ -799,7 +841,8 @@ h3,
         margin-left: 0;
     }
 
-    .tilt-up, .tilt-up-delayed {
+    .tilt-up,
+    .tilt-up-delayed {
         position: static;
         transform: none;
         margin: 0;
@@ -866,7 +909,7 @@ h3,
     .logo-text {
         font-size: 1.4rem;
     }
-    
+
     .logo-icon {
         width: 40px;
         height: 40px;
